@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF4672D91C05CDF700197A9E /* horn.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF4672D51C05CDF700197A9E /* horn.wav */; };
-		BF4672DA1C05CDF700197A9E /* lol.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF4672D61C05CDF700197A9E /* lol.wav */; };
-		BF4672DB1C05CDF700197A9E /* sand.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF4672D71C05CDF700197A9E /* sand.wav */; };
-		BF4672DC1C05CDF700197A9E /* xp.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF4672D81C05CDF700197A9E /* xp.wav */; };
+		BF4672E11C05CE5E00197A9E /* horn.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF4672DD1C05CE5E00197A9E /* horn.wav */; };
+		BF4672E21C05CE5E00197A9E /* lol.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF4672DE1C05CE5E00197A9E /* lol.wav */; };
+		BF4672E31C05CE5E00197A9E /* sand.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF4672DF1C05CE5E00197A9E /* sand.wav */; };
+		BF4672E41C05CE5E00197A9E /* xp.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF4672E01C05CE5E00197A9E /* xp.wav */; };
 		F9087F461B1A37AC00767FD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9087F451B1A37AC00767FD3 /* AppDelegate.swift */; };
 		F9087F481B1A37AC00767FD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9087F471B1A37AC00767FD3 /* ViewController.swift */; };
 		F9087F4B1B1A37AC00767FD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9087F491B1A37AC00767FD3 /* Main.storyboard */; };
@@ -30,10 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BF4672D51C05CDF700197A9E /* horn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = horn.wav; sourceTree = "<group>"; };
-		BF4672D61C05CDF700197A9E /* lol.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lol.wav; sourceTree = "<group>"; };
-		BF4672D71C05CDF700197A9E /* sand.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sand.wav; sourceTree = "<group>"; };
-		BF4672D81C05CDF700197A9E /* xp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = xp.wav; sourceTree = "<group>"; };
+		BF4672DD1C05CE5E00197A9E /* horn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = horn.wav; sourceTree = "<group>"; };
+		BF4672DE1C05CE5E00197A9E /* lol.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lol.wav; sourceTree = "<group>"; };
+		BF4672DF1C05CE5E00197A9E /* sand.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sand.wav; sourceTree = "<group>"; };
+		BF4672E01C05CE5E00197A9E /* xp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = xp.wav; sourceTree = "<group>"; };
 		F9087F401B1A37AC00767FD3 /* NoiseMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoiseMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9087F441B1A37AC00767FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9087F451B1A37AC00767FD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,10 +99,10 @@
 			isa = PBXGroup;
 			children = (
 				F9087F441B1A37AC00767FD3 /* Info.plist */,
-				BF4672D51C05CDF700197A9E /* horn.wav */,
-				BF4672D61C05CDF700197A9E /* lol.wav */,
-				BF4672D71C05CDF700197A9E /* sand.wav */,
-				BF4672D81C05CDF700197A9E /* xp.wav */,
+				BF4672DD1C05CE5E00197A9E /* horn.wav */,
+				BF4672DE1C05CE5E00197A9E /* lol.wav */,
+				BF4672DF1C05CE5E00197A9E /* sand.wav */,
+				BF4672E01C05CE5E00197A9E /* xp.wav */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -205,13 +205,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF4672DB1C05CDF700197A9E /* sand.wav in Resources */,
+				BF4672E31C05CE5E00197A9E /* sand.wav in Resources */,
 				F9087F4B1B1A37AC00767FD3 /* Main.storyboard in Resources */,
-				BF4672DC1C05CDF700197A9E /* xp.wav in Resources */,
+				BF4672E41C05CE5E00197A9E /* xp.wav in Resources */,
 				F9087F501B1A37AC00767FD3 /* LaunchScreen.xib in Resources */,
-				BF4672DA1C05CDF700197A9E /* lol.wav in Resources */,
+				BF4672E21C05CE5E00197A9E /* lol.wav in Resources */,
 				F9087F4D1B1A37AC00767FD3 /* Images.xcassets in Resources */,
-				BF4672D91C05CDF700197A9E /* horn.wav in Resources */,
+				BF4672E11C05CE5E00197A9E /* horn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
