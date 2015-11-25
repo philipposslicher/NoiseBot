@@ -19,20 +19,32 @@ class ViewController: UIViewController {//
     
 
     @IBAction func playSand(sender: UIButton) {
-        let url = NSBundle.mainBundle().URLForResource("sand",
-            withExtension: "wav")
-        player = AVAudioPlayer(contentsOfURL: url, error: nil)
+        let url = NSBundle.mainBundle().pathForResource("sand", ofType:"wav")
+        let fileURL = NSURL(fileURLWithPath: url!)
+        player = try! AVAudioPlayer(contentsOfURL: fileURL)
         player!.play()
     }
     
     
     @IBAction func playHorn(sender: UIButton) {
+        let url = NSBundle.mainBundle().pathForResource("horn", ofType:"wav")
+        let fileURL = NSURL(fileURLWithPath: url!)
+        player = try! AVAudioPlayer(contentsOfURL: fileURL)
+        player!.play()
     }
     
     @IBAction func playXP(sender: UIButton) {
+        let url = NSBundle.mainBundle().pathForResource("xp", ofType:"wav")
+        let fileURL = NSURL(fileURLWithPath: url!)
+        player = try! AVAudioPlayer(contentsOfURL: fileURL)
+        player!.play()
     }
     
     @IBAction func playLOL(sender: UIButton) {
+        let url = NSBundle.mainBundle().pathForResource("lol", ofType:"wav")
+        let fileURL = NSURL(fileURLWithPath: url!)
+        player = try! AVAudioPlayer(contentsOfURL: fileURL)
+        player!.play()
     }
 
 }//
