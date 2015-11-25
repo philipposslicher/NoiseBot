@@ -1,10 +1,3 @@
-/*
-
-This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike
-4.0 International License, by Yong Bakos.
-
-*/
-
 import UIKit
 import AVFoundation
 
@@ -26,7 +19,7 @@ class ViewController: UIViewController {//
     
 
     @IBAction func playSand(sender: UIButton) {
-        let url = NSBundle.mainBundle().URLForResource("Darude Sandstorm Sound Effect",
+        let url = NSBundle.mainBundle().URLForResource("sand",
             withExtension: "wav")
         player = AVAudioPlayer(contentsOfURL: url, error: nil)
         player!.play()
