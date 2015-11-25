@@ -48,7 +48,6 @@
                                 <state key="normal" title="Air Horn"/>
                                 <connections>
                                     <action selector="playHorn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K9t-d2-ZrX"/>
-                                    <action selector="playSand:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U0E-st-VpX"/>
                                 </connections>
                             </button>
                         </subviews>
