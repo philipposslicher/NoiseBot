@@ -11,22 +11,27 @@ import AVFoundation
 
 class NoiseMaker {//
     
+    init() {
+        let url = NSBundle.mainBundle().pathForResource("sand", ofType:"wav")
+        let fileURL = NSURL(fileURLWithPath: url!)
+        sandPlayer = try! AVAudioPlayer(contentsOfURL: fileURL)
+        
+        let url2 = NSBundle.mainBundle().pathForResource("horn", ofType:"wav")
+        let fileURL2 = NSURL(fileURLWithPath: url2!)
+        hornPlayer = try! AVAudioPlayer(contentsOfURL: fileURL2)
+    }
+    
     private var sandPlayer: AVAudioPlayer?
     private var hornPlayer: AVAudioPlayer?
     private var XPPlayer: AVAudioPlayer?
     private var LOLPlayer: AVAudioPlayer?
     
     func playSand() {
-        let url = NSBundle.mainBundle().pathForResource("sand", ofType:"wav")
-        let fileURL = NSURL(fileURLWithPath: url!)
-        sandPlayer = try! AVAudioPlayer(contentsOfURL: fileURL)
         sandPlayer!.play()
     }
     
     func playHorn() {
-        let url = NSBundle.mainBundle().pathForResource("horn", ofType:"wav")
-        let fileURL = NSURL(fileURLWithPath: url!)
-        hornPlayer = try! AVAudioPlayer(contentsOfURL: fileURL)
+
         hornPlayer!.play()
     }
     
