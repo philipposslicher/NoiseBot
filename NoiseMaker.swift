@@ -11,10 +11,10 @@ import AVFoundation
 
 class NoiseMaker {//
     
-    private let sandPlayer: AVAudioPlayer?
-    private let hornPlayer: AVAudioPlayer?
-    private let XPPlayer: AVAudioPlayer?
-    private let LOLPlayer: AVAudioPlayer?
+    private var sandPlayer: AVAudioPlayer?
+    private var hornPlayer: AVAudioPlayer?
+    private var XPPlayer: AVAudioPlayer?
+    private var LOLPlayer: AVAudioPlayer?
     
     func playSand() {
         let url = NSBundle.mainBundle().pathForResource("sand", ofType:"wav")

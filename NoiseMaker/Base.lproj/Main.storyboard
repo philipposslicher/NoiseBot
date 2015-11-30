@@ -23,7 +23,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="XP"/>
                                 <connections>
-                                    <action selector="playXP:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Pp-PE-O0i"/>
+                                    <action selector="playXP:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fl1-rr-9nN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlX-eq-HUP">
@@ -31,7 +31,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Sand"/>
                                 <connections>
-                                    <action selector="playSand:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wju-e9-afK"/>
+                                    <action selector="playSand:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T0R-Pa-dwI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHy-ho-zAm">
@@ -39,7 +39,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="LOL"/>
                                 <connections>
-                                    <action selector="playLOL:" destination="BYZ-38-t0r" eventType="touchUpInside" id="diF-JD-4IK"/>
+                                    <action selector="playLOL:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j1d-pe-78u"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ak6-7F-Pza">
@@ -47,7 +47,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Air Horn"/>
                                 <connections>
-                                    <action selector="playHorn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K9t-d2-ZrX"/>
+                                    <action selector="playHorn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XAb-nw-8tB"/>
                                 </connections>
                             </button>
                         </subviews>
