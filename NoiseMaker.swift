@@ -23,7 +23,6 @@ class NoiseMaker {//
         sandPlayer!.play()
     }
     
-    
     func playHorn() {
         let url = NSBundle.mainBundle().pathForResource("horn", ofType:"wav")
         let fileURL = NSURL(fileURLWithPath: url!)
