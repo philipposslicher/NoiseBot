@@ -11,41 +11,37 @@ import AVFoundation
 
 class NoiseMaker {//
     
+    let AudioFilesArray = ["sand" , "horn" , "xp" , "lol"]
+    
+    let AudioPlayers = [AVAudioPlayer]()
     init() {
-        let url = NSBundle.mainBundle().pathForResource("sand", ofType:"wav")
-        let fileURL = NSURL(fileURLWithPath: url!)
-        sandPlayer = try! AVAudioPlayer(contentsOfURL: fileURL)
-        
-        let url2 = NSBundle.mainBundle().pathForResource("horn", ofType:"wav")
-        let fileURL2 = NSURL(fileURLWithPath: url2!)
-        hornPlayer = try! AVAudioPlayer(contentsOfURL: fileURL2)
+        AudioPlayers = AudioFilesArray.map( { (filename: String) -> AVAudioPlayer
+            in
+            let url = NSBundle.mainBundle().URLForResource(filename,
+                withExtension: "wav")
+            let fileURL = NSURL(fileURLWithPath: url!)
+            return AVAudioPlayer(contentsOfURL: fileURL!)
+        })
     }
     
-    private var sandPlayer: AVAudioPlayer?
-    private var hornPlayer: AVAudioPlayer?
-    private var XPPlayer: AVAudioPlayer?
-    private var LOLPlayer: AVAudioPlayer?
+    private let sandPlayer: AVAudioPlayer
+    private let hornPlayer: AVAudioPlayer
+    private let XPPlayer: AVAudioPlayer
+    private let LOLPlayer: AVAudioPlayer
     
     func playSand() {
-        sandPlayer!.play()
+        sandPlayer.play()
     }
     
     func playHorn() {
-
-        hornPlayer!.play()
+        hornPlayer.play()
     }
     
     func playXP() {
-        let url = NSBundle.mainBundle().pathForResource("xp", ofType:"wav")
-        let fileURL = NSURL(fileURLWithPath: url!)
-        XPPlayer = try! AVAudioPlayer(contentsOfURL: fileURL)
-        XPPlayer!.play()
+        XPPlayer.play()
     }
     
     func playLOL() {
-        let url = NSBundle.mainBundle().pathForResource("lol", ofType:"wav")
-        let fileURL = NSURL(fileURLWithPath: url!)
-        LOLPlayer = try! AVAudioPlayer(contentsOfURL: fileURL)
-        LOLPlayer!.play()
+        LOLPlayer.play()
     }
 }//
