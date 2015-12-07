@@ -11,17 +11,16 @@ import AVFoundation
 
 class NoiseMaker {//
     
-    let AudioFilesArray = ["sand" , "horn" , "xp" , "lol"]
+    let audioFilesArray = ["sand" , "horn" , "xp" , "lol"]
     
     let AudioPlayers = [AVAudioPlayer]()
     init() {
-        AudioPlayers = AudioFilesArray.map( { (filename: String) -> AVAudioPlayer
-            in
+        AudioPlayers = audioFilesArray.map { filename in
             let url = NSBundle.mainBundle().URLForResource(filename,
                 withExtension: "wav")
-            let fileURL = NSURL(fileURLWithPath: url!)
-            return AVAudioPlayer(contentsOfURL: fileURL!)
-        })
+            //let fileURL = NSURL(fileURLWithPath: url)
+            return AVAudioPlayer(contentsOfURL: url!, error: nil)
+        }
     }
     
     private let sandPlayer: AVAudioPlayer
