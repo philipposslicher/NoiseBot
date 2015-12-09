@@ -2,7 +2,7 @@ import AVFoundation
 
 class NoiseMaker {
     
-    let audioFileNames = ["horn", "lol", "sand", "xp"]
+    let audioFileNames = ["horn", "lol", "sand", "xp", "bassel"]
     var players: [AVAudioPlayer]
     
     init() {

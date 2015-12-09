@@ -88,19 +88,36 @@
                                     <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZiY-IU-daE"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KxE-eN-k0o">
+                                <rect key="frame" x="180" y="422" width="100" height="100"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration" hint="Plays monster sound" label="Monster">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
+                                </accessibility>
+                                <state key="normal" image="BasselIcon">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UN5-kU-Dg3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KxE-eN-k0o" secondAttribute="bottom" constant="78" id="Edq-Yl-bwQ"/>
                             <constraint firstItem="NTf-JM-pey" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="128" id="IHW-If-hh0"/>
                             <constraint firstItem="HD6-fP-AM2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="ITZ-Vi-qWK"/>
                             <constraint firstAttribute="centerX" secondItem="86d-Kd-yYB" secondAttribute="centerX" constant="70" id="aNm-3k-Hk4"/>
                             <constraint firstAttribute="centerX" secondItem="yc6-R9-qug" secondAttribute="centerX" constant="-71" id="bLE-U5-1Nd"/>
+                            <constraint firstItem="KxE-eN-k0o" firstAttribute="trailing" secondItem="cLN-PD-iRa" secondAttribute="trailing" id="dku-qZ-TFF"/>
                             <constraint firstItem="yc6-R9-qug" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="266" id="etL-9s-rWN"/>
                             <constraint firstAttribute="centerX" secondItem="HD6-fP-AM2" secondAttribute="centerX" id="hrI-aK-wtw"/>
                             <constraint firstItem="86d-Kd-yYB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="128" id="nFw-tu-bpO"/>
                             <constraint firstItem="cLN-PD-iRa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="266" id="nXQ-aX-afE"/>
                             <constraint firstAttribute="centerX" secondItem="NTf-JM-pey" secondAttribute="centerX" constant="-70" id="o3f-pC-VQc"/>
+                            <constraint firstItem="KxE-eN-k0o" firstAttribute="leading" secondItem="cLN-PD-iRa" secondAttribute="leading" id="qU9-QF-Fqf"/>
                             <constraint firstAttribute="centerX" secondItem="cLN-PD-iRa" secondAttribute="centerX" constant="70" id="smb-DV-J69"/>
+                            <constraint firstItem="KxE-eN-k0o" firstAttribute="top" secondItem="cLN-PD-iRa" secondAttribute="bottom" constant="36" id="uRm-4i-2sW"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -110,6 +127,7 @@
     </scenes>
     <resources>
         <image name="AirIcon" width="600" height="376"/>
+        <image name="BasselIcon" width="720" height="720"/>
         <image name="LOLIcon" width="700" height="603"/>
         <image name="SandIcon" width="700" height="587"/>
         <image name="Title" width="150" height="75"/>
