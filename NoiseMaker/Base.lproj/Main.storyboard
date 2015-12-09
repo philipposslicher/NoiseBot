@@ -105,14 +105,33 @@
                                     <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mjG-Qd-DEh"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkZ-BZ-LvT">
+                                <rect key="frame" x="320" y="408" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration" hint="Plays bubbles sound" label="Bubbles">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Ols-Zx-mPM"/>
+                                    <constraint firstAttribute="height" constant="100" id="lO7-qO-YZP"/>
+                                </constraints>
+                                <state key="normal" image="BasselIcon">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d2Z-aQ-AbG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="dkZ-BZ-LvT" firstAttribute="top" secondItem="x5E-PL-Jzp" secondAttribute="top" id="6yl-vh-tmP"/>
                             <constraint firstItem="x5E-PL-Jzp" firstAttribute="leading" secondItem="cLN-PD-iRa" secondAttribute="leading" id="9na-4c-2uK"/>
                             <constraint firstItem="NTf-JM-pey" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="128" id="IHW-If-hh0"/>
                             <constraint firstItem="HD6-fP-AM2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="ITZ-Vi-qWK"/>
                             <constraint firstAttribute="centerX" secondItem="86d-Kd-yYB" secondAttribute="centerX" constant="70" id="aNm-3k-Hk4"/>
                             <constraint firstAttribute="centerX" secondItem="yc6-R9-qug" secondAttribute="centerX" constant="-71" id="bLE-U5-1Nd"/>
+                            <constraint firstItem="dkZ-BZ-LvT" firstAttribute="leading" secondItem="NTf-JM-pey" secondAttribute="leading" id="c4P-Ep-Oor"/>
                             <constraint firstItem="yc6-R9-qug" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="266" id="etL-9s-rWN"/>
                             <constraint firstAttribute="centerX" secondItem="HD6-fP-AM2" secondAttribute="centerX" id="hrI-aK-wtw"/>
                             <constraint firstItem="86d-Kd-yYB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="128" id="nFw-tu-bpO"/>
