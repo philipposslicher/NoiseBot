@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="86d-Kd-yYB">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="86d-Kd-yYB">
                                 <rect key="frame" x="180" y="148" width="100" height="100"/>
                                 <color key="backgroundColor" red="0.63094139099121094" green="0.31310760974884033" blue="0.84847396612167358" alpha="1" colorSpace="calibratedRGB"/>
                                 <accessibility key="accessibilityConfiguration" hint="Plays a guitar sound" label="Guitar">
@@ -27,14 +27,14 @@
                                     <constraint firstAttribute="height" constant="100" id="foo-0a-IKE"/>
                                     <constraint firstAttribute="width" constant="100" id="uwI-By-j4l"/>
                                 </constraints>
-                                <state key="normal" image="GuitarIcon">
+                                <state key="normal" image="SandIcon" backgroundImage="SandIcon">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nge-tR-DDs"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NTf-JM-pey">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NTf-JM-pey">
                                 <rect key="frame" x="320" y="148" width="100" height="100"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <accessibility key="accessibilityConfiguration" hint="Plays applause sound" label="Applause">
@@ -71,7 +71,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Title" translatesAutoresizingMaskIntoConstraints="NO" id="HD6-fP-AM2">
                                 <rect key="frame" x="225" y="50" width="150" height="75"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLN-PD-iRa">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLN-PD-iRa">
                                 <rect key="frame" x="180" y="286" width="100" height="100"/>
                                 <color key="backgroundColor" red="0.63094139099121094" green="0.31310760974884033" blue="0.84847396612167358" alpha="1" colorSpace="calibratedRGB"/>
                                 <accessibility key="accessibilityConfiguration" hint="Plays monster sound" label="Monster">
@@ -81,7 +81,7 @@
                                     <constraint firstAttribute="height" constant="100" id="How-Hf-qOD"/>
                                     <constraint firstAttribute="width" constant="100" id="YMQ-ee-3BV"/>
                                 </constraints>
-                                <state key="normal" image="MonsterIcon">
+                                <state key="normal" image="SandIcon">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -110,8 +110,6 @@
     </scenes>
     <resources>
         <image name="AirIcon" width="600" height="376"/>
-        <image name="GuitarIcon" width="60" height="65"/>
-        <image name="MonsterIcon" width="63" height="76"/>
         <image name="SandIcon" width="200" height="200"/>
         <image name="Title" width="150" height="75"/>
     </resources>

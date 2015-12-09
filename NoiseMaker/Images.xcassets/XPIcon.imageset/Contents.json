@@ -2,18 +2,18 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "Monster.png"
+      "filename" : "xpico.png",
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x",
-      "filename" : "Monster@2x.png"
+      "filename" : "xpico-1.png",
+      "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "scale" : "3x",
-      "filename" : "Monster@3x.png"
+      "filename" : "xpico-2.png",
+      "scale" : "3x"
     }
   ],
   "info" : {
