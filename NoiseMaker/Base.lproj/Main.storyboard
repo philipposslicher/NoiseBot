@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,65 +17,102 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOF-LJ-SR7">
-                                <rect key="frame" x="88" y="178" width="38" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="XP"/>
-                                <connections>
-                                    <action selector="playXP:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fl1-rr-9nN"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlX-eq-HUP">
-                                <rect key="frame" x="415" y="306" width="139" height="128"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Sand"/>
-                                <connections>
-                                    <action selector="playSand:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T0R-Pa-dwI"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHy-ho-zAm">
-                                <rect key="frame" x="88" y="341" width="54" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="LOL"/>
-                                <connections>
-                                    <action selector="playLOL:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j1d-pe-78u"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ak6-7F-Pza">
-                                <rect key="frame" x="430" y="178" width="109" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Air Horn"/>
-                                <connections>
-                                    <action selector="playHorn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XAb-nw-8tB"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="XP_ico" translatesAutoresizingMaskIntoConstraints="NO" id="pF8-LM-tie">
-                                <rect key="frame" x="415" y="306" width="139" height="128"/>
-                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <accessibility key="accessibilityConfiguration" hint="A button that plays sand" label="Sandstorm">
-                                    <bool key="isElement" value="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="86d-Kd-yYB">
+                                <rect key="frame" x="180" y="148" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.63094139099121094" green="0.31310760974884033" blue="0.84847396612167358" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration" hint="Plays a guitar sound" label="Guitar">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
                                 </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="foo-0a-IKE"/>
+                                    <constraint firstAttribute="width" constant="100" id="uwI-By-j4l"/>
+                                </constraints>
+                                <state key="normal" image="GuitarIcon">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nge-tR-DDs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NTf-JM-pey">
+                                <rect key="frame" x="320" y="148" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration" hint="Plays applause sound" label="Applause">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="3bo-W3-STn"/>
+                                    <constraint firstAttribute="height" constant="100" id="icJ-Av-rS1"/>
+                                </constraints>
+                                <state key="normal" image="SandIcon">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AGe-y2-48E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yc6-R9-qug">
+                                <rect key="frame" x="321" y="286" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration" hint="Plays bubbles sound" label="Bubbles">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Pbv-8w-i3b"/>
+                                    <constraint firstAttribute="width" constant="100" id="i9q-GY-dyn"/>
+                                </constraints>
+                                <state key="normal" image="AirIcon">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zgD-4d-dtC"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Title" translatesAutoresizingMaskIntoConstraints="NO" id="HD6-fP-AM2">
+                                <rect key="frame" x="225" y="50" width="150" height="75"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLN-PD-iRa">
+                                <rect key="frame" x="180" y="286" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.63094139099121094" green="0.31310760974884033" blue="0.84847396612167358" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration" hint="Plays monster sound" label="Monster">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="How-Hf-qOD"/>
+                                    <constraint firstAttribute="width" constant="100" id="YMQ-ee-3BV"/>
+                                </constraints>
+                                <state key="normal" image="MonsterIcon">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZiY-IU-daE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="ak6-7F-Pza" secondAttribute="trailing" constant="41" id="4Sp-J9-kZ2"/>
-                            <constraint firstItem="OOF-LJ-SR7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="158" id="6U5-Bt-NxS"/>
-                            <constraint firstItem="FlX-eq-HUP" firstAttribute="centerX" secondItem="ak6-7F-Pza" secondAttribute="centerX" id="NuK-pq-RLR"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ZHy-ho-zAm" secondAttribute="bottom" constant="211" id="giu-d4-GSr"/>
-                            <constraint firstItem="FlX-eq-HUP" firstAttribute="baseline" secondItem="ZHy-ho-zAm" secondAttribute="baseline" id="h94-JN-SkI"/>
-                            <constraint firstItem="OOF-LJ-SR7" firstAttribute="leading" secondItem="ZHy-ho-zAm" secondAttribute="leading" id="mtk-Le-5kU"/>
-                            <constraint firstItem="OOF-LJ-SR7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="68" id="oXx-wi-YRS"/>
-                            <constraint firstItem="OOF-LJ-SR7" firstAttribute="baseline" secondItem="ak6-7F-Pza" secondAttribute="baseline" id="sdc-Tv-81m"/>
+                            <constraint firstItem="NTf-JM-pey" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="128" id="IHW-If-hh0"/>
+                            <constraint firstItem="HD6-fP-AM2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="ITZ-Vi-qWK"/>
+                            <constraint firstAttribute="centerX" secondItem="86d-Kd-yYB" secondAttribute="centerX" constant="70" id="aNm-3k-Hk4"/>
+                            <constraint firstAttribute="centerX" secondItem="yc6-R9-qug" secondAttribute="centerX" constant="-71" id="bLE-U5-1Nd"/>
+                            <constraint firstItem="yc6-R9-qug" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="266" id="etL-9s-rWN"/>
+                            <constraint firstAttribute="centerX" secondItem="HD6-fP-AM2" secondAttribute="centerX" id="hrI-aK-wtw"/>
+                            <constraint firstItem="86d-Kd-yYB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="128" id="nFw-tu-bpO"/>
+                            <constraint firstItem="cLN-PD-iRa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="266" id="nXQ-aX-afE"/>
+                            <constraint firstAttribute="centerX" secondItem="NTf-JM-pey" secondAttribute="centerX" constant="-70" id="o3f-pC-VQc"/>
+                            <constraint firstAttribute="centerX" secondItem="cLN-PD-iRa" secondAttribute="centerX" constant="70" id="smb-DV-J69"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="380" y="349"/>
         </scene>
     </scenes>
     <resources>
-        <image name="XP_ico" width="200" height="200"/>
+        <image name="AirIcon" width="600" height="376"/>
+        <image name="GuitarIcon" width="60" height="65"/>
+        <image name="MonsterIcon" width="63" height="76"/>
+        <image name="SandIcon" width="200" height="200"/>
+        <image name="Title" width="150" height="75"/>
     </resources>
 </document>

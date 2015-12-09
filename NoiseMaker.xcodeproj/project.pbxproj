@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF4672E11C05CE5E00197A9E /* horn.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF4672DD1C05CE5E00197A9E /* horn.wav */; };
-		BF4672E21C05CE5E00197A9E /* lol.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF4672DE1C05CE5E00197A9E /* lol.wav */; };
-		BF4672E31C05CE5E00197A9E /* sand.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF4672DF1C05CE5E00197A9E /* sand.wav */; };
-		BF4672E41C05CE5E00197A9E /* xp.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF4672E01C05CE5E00197A9E /* xp.wav */; };
-		BFAF89311C0C3562009FDBD2 /* NoiseMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF89301C0C3562009FDBD2 /* NoiseMaker.swift */; };
+		BF63779B1C18129B00BAD551 /* horn.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF6377971C18129B00BAD551 /* horn.wav */; };
+		BF63779C1C18129B00BAD551 /* lol.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF6377981C18129B00BAD551 /* lol.wav */; };
+		BF63779D1C18129B00BAD551 /* sand.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF6377991C18129B00BAD551 /* sand.wav */; };
+		BF63779E1C18129B00BAD551 /* xp.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF63779A1C18129B00BAD551 /* xp.wav */; };
 		F9087F461B1A37AC00767FD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9087F451B1A37AC00767FD3 /* AppDelegate.swift */; };
 		F9087F481B1A37AC00767FD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9087F471B1A37AC00767FD3 /* ViewController.swift */; };
 		F9087F4B1B1A37AC00767FD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9087F491B1A37AC00767FD3 /* Main.storyboard */; };
 		F9087F4D1B1A37AC00767FD3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9087F4C1B1A37AC00767FD3 /* Images.xcassets */; };
 		F9087F501B1A37AC00767FD3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9087F4E1B1A37AC00767FD3 /* LaunchScreen.xib */; };
 		F9087F5C1B1A37AC00767FD3 /* NoiseMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9087F5B1B1A37AC00767FD3 /* NoiseMakerTests.swift */; };
+		F9087F761B1B5BF400767FD3 /* NoiseMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9087F751B1B5BF400767FD3 /* NoiseMaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,11 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BF4672DD1C05CE5E00197A9E /* horn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = horn.wav; sourceTree = "<group>"; };
-		BF4672DE1C05CE5E00197A9E /* lol.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lol.wav; sourceTree = "<group>"; };
-		BF4672DF1C05CE5E00197A9E /* sand.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sand.wav; sourceTree = "<group>"; };
-		BF4672E01C05CE5E00197A9E /* xp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = xp.wav; sourceTree = "<group>"; };
-		BFAF89301C0C3562009FDBD2 /* NoiseMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoiseMaker.swift; sourceTree = SOURCE_ROOT; };
+		BF6377971C18129B00BAD551 /* horn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = horn.wav; sourceTree = "<group>"; };
+		BF6377981C18129B00BAD551 /* lol.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lol.wav; sourceTree = "<group>"; };
+		BF6377991C18129B00BAD551 /* sand.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sand.wav; sourceTree = "<group>"; };
+		BF63779A1C18129B00BAD551 /* xp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = xp.wav; sourceTree = "<group>"; };
 		F9087F401B1A37AC00767FD3 /* NoiseMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoiseMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9087F441B1A37AC00767FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9087F451B1A37AC00767FD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +45,7 @@
 		F9087F551B1A37AC00767FD3 /* NoiseMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoiseMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9087F5A1B1A37AC00767FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9087F5B1B1A37AC00767FD3 /* NoiseMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoiseMakerTests.swift; sourceTree = "<group>"; };
+		F9087F751B1B5BF400767FD3 /* NoiseMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoiseMaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 			children = (
 				F9087F451B1A37AC00767FD3 /* AppDelegate.swift */,
 				F9087F471B1A37AC00767FD3 /* ViewController.swift */,
-				BFAF89301C0C3562009FDBD2 /* NoiseMaker.swift */,
+				F9087F751B1B5BF400767FD3 /* NoiseMaker.swift */,
 				F9087F491B1A37AC00767FD3 /* Main.storyboard */,
 				F9087F4C1B1A37AC00767FD3 /* Images.xcassets */,
 				F9087F4E1B1A37AC00767FD3 /* LaunchScreen.xib */,
@@ -101,11 +101,11 @@
 		F9087F431B1A37AC00767FD3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BF6377971C18129B00BAD551 /* horn.wav */,
+				BF6377981C18129B00BAD551 /* lol.wav */,
+				BF6377991C18129B00BAD551 /* sand.wav */,
+				BF63779A1C18129B00BAD551 /* xp.wav */,
 				F9087F441B1A37AC00767FD3 /* Info.plist */,
-				BF4672DD1C05CE5E00197A9E /* horn.wav */,
-				BF4672DE1C05CE5E00197A9E /* lol.wav */,
-				BF4672DF1C05CE5E00197A9E /* sand.wav */,
-				BF4672E01C05CE5E00197A9E /* xp.wav */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -171,8 +171,8 @@
 		F9087F381B1A37AC00767FD3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastSwiftMigration = 0710;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Your School";
 				TargetAttributes = {
 					F9087F3F1B1A37AC00767FD3 = {
@@ -209,13 +209,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF4672E31C05CE5E00197A9E /* sand.wav in Resources */,
+				BF63779D1C18129B00BAD551 /* sand.wav in Resources */,
 				F9087F4B1B1A37AC00767FD3 /* Main.storyboard in Resources */,
-				BF4672E41C05CE5E00197A9E /* xp.wav in Resources */,
+				BF63779E1C18129B00BAD551 /* xp.wav in Resources */,
 				F9087F501B1A37AC00767FD3 /* LaunchScreen.xib in Resources */,
-				BF4672E21C05CE5E00197A9E /* lol.wav in Resources */,
+				BF63779C1C18129B00BAD551 /* lol.wav in Resources */,
 				F9087F4D1B1A37AC00767FD3 /* Images.xcassets in Resources */,
-				BF4672E11C05CE5E00197A9E /* horn.wav in Resources */,
+				BF63779B1C18129B00BAD551 /* horn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9087F481B1A37AC00767FD3 /* ViewController.swift in Sources */,
-				BFAF89311C0C3562009FDBD2 /* NoiseMaker.swift in Sources */,
+				F9087F761B1B5BF400767FD3 /* NoiseMaker.swift in Sources */,
 				F9087F461B1A37AC00767FD3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,12 +366,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = NoiseMaker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.philipposslicher.noisebot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -380,12 +378,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = NoiseMaker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.philipposslicher.noisebot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

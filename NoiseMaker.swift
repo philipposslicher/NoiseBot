@@ -13,16 +13,21 @@ class NoiseMaker {//
     
     let audioFilesArray = ["sand" , "horn" , "xp" , "lol"]
     
-    let AudioPlayers = [AVAudioPlayer]()
+    var AudioPlayers: [AVAudioPlayer]
+    
     init() {
         AudioPlayers = audioFilesArray.map { filename in
-            let url = NSBundle.mainBundle().URLForResource(filename,
-                withExtension: "wav")
-            //let fileURL = NSURL(fileURLWithPath: url)
-            return AVAudioPlayer(contentsOfURL: url!, error: nil)
+            let url = NSBundle.mainBundle().URLForResource(filename, withExtension: "wav")
+            return try! AVAudioPlayer(contentsOfURL: url!)
         }
     }
     
+    func play(index: Int) {
+        if !AudioPlayers.isEmpty && index >= 0 && index < AudioPlayers.count {
+            AudioPlayers[index].play()
+        }
+    }
+    /*
     private let sandPlayer: AVAudioPlayer
     private let hornPlayer: AVAudioPlayer
     private let XPPlayer: AVAudioPlayer
@@ -43,4 +48,5 @@ class NoiseMaker {//
     func playLOL() {
         LOLPlayer.play()
     }
+*/
 }//
