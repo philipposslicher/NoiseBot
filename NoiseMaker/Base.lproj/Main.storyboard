@@ -44,7 +44,7 @@
                                     <constraint firstAttribute="width" constant="100" id="3bo-W3-STn"/>
                                     <constraint firstAttribute="height" constant="100" id="icJ-Av-rS1"/>
                                 </constraints>
-                                <state key="normal" image="SandIcon">
+                                <state key="normal" image="LOLIcon">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -73,7 +73,7 @@
                             </imageView>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLN-PD-iRa">
                                 <rect key="frame" x="180" y="286" width="100" height="100"/>
-                                <color key="backgroundColor" red="0.63094139099121094" green="0.31310760974884033" blue="0.84847396612167358" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <accessibility key="accessibilityConfiguration" hint="Plays monster sound" label="Monster">
                                     <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
                                 </accessibility>
@@ -81,7 +81,7 @@
                                     <constraint firstAttribute="height" constant="100" id="How-Hf-qOD"/>
                                     <constraint firstAttribute="width" constant="100" id="YMQ-ee-3BV"/>
                                 </constraints>
-                                <state key="normal" image="SandIcon">
+                                <state key="normal" image="XPIcon">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -110,7 +110,9 @@
     </scenes>
     <resources>
         <image name="AirIcon" width="600" height="376"/>
-        <image name="SandIcon" width="200" height="200"/>
+        <image name="LOLIcon" width="700" height="603"/>
+        <image name="SandIcon" width="700" height="587"/>
         <image name="Title" width="150" height="75"/>
+        <image name="XPIcon" width="256" height="256"/>
     </resources>
 </document>
