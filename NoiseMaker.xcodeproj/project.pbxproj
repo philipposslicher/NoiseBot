@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -179,7 +179,7 @@
 			attributes = {
 				LastSwiftMigration = 0710;
 				LastUpgradeCheck = 0710;
-				ORGANIZATIONNAME = "Your School";
+				ORGANIZATIONNAME = "PS Productions";
 				TargetAttributes = {
 					F9087F3F1B1A37AC00767FD3 = {
 						CreatedOnToolsVersion = 6.3;
@@ -192,7 +192,7 @@
 				};
 			};
 			buildConfigurationList = F9087F3B1B1A37AC00767FD3 /* Build configuration list for PBXProject "NoiseMaker" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
